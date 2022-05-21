@@ -1,0 +1,47 @@
+Idea Description:
+- Our Idea is to create an App that will help Disabled People and their caregivers to avail maximum benefits of the flagship schemes launched by the Govt. of India.
+- We Will collect data of various flagships schemes and will categories as per the disability  for example, category 1: schemes for color blind person,  category 2: schemes for Person with Hearing impairment  etc.
+- We will try to bring all the avaiable schemes at Single Place 
+- We will use W3C Assesibility standards to design our App
+- Some additional features of app:
+	- Text To Speech Support (so if anyone can not read, using this feature can hear about the schemes)
+	- Proper care of Color Contrast (So that person with Visual Problem can read it easily)
+	- Large Text & Button 
+	- Visual Content (Videos and Animation to demonstrat how to use an application)
+	- Multi-Language Support 
+	- Understandable Content
+	- Audio Support With Multi-Languages 
+	- Constomizable Text
+
+
+
+
+There are various flagship schemes launched by Govt. of India for persons with disability. However, many of the persons with disability and their caregivers are not aware of the same and hence could avail the benefit of these schemes. Such kind of software will enable the persons with disabilities and their caregivers to avail maximum benefit of the same for their social and personal empowerment. Objective: A web/app based platform such as PWAs and offline Android/iOS apps, highly accessible to all types of disable persons that provides details of various schemes by Govt. of India.
+
+
+
+
+
+
+
+
+Abstract Summery: 
+- We are planning to bulid an Application that will broadcast All the Gorv. Schemes Available for Disabled People
+- We will try to follow W3C Accessibility standard so that the Disabled People or their CareGivers can easily access the app.
+- With Clear & Simple UI and Controls, the app will help every phone user to get aware of the availble schemes for Disabled People.
+
+
+
+regarding ppt upload as per given format
+
+
+
+Kindly Upload your PPT in specified format in idea submission against your chosen problem statement.
+
+Any other documents are separately uploaded.
+
+please upload it by today.
+
+
+
+
