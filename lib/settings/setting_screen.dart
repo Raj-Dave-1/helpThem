@@ -2,6 +2,8 @@
 
 
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
+import 'package:sih_help_disabled_people/providers/app_setting_provider.dart';
 import 'package:sih_help_disabled_people/utils/utils.dart';
 
 
@@ -46,10 +48,24 @@ class SettingScreen extends StatelessWidget {
                 color: Colors.grey
               ),
               child: Row(
-                children: const [
-                  DynamicText("Change Font Size"),
-                  Spacer(),
-                  
+                children: [
+                  const DynamicText("Change Font Size"),
+                  const Spacer(),
+                  GestureDetector(
+                    onTap: (){
+                      context.read<AppSettingProvider>().setTextScaleFactor(TextScaleFactorEnum.small);
+                    },
+                    child: Row(
+                      children: [
+                        DynamicText(
+                          (context.read<AppSettingProvider>().textScaleFactor == TextScaleFactorEnum.small) ? "Small" :
+                          (context.read<AppSettingProvider>().textScaleFactor == TextScaleFactorEnum.medium) ? "Medium" : 
+                          (context.read<AppSettingProvider>().textScaleFactor == TextScaleFactorEnum.large) ? "Large" : "Extra Large"
+                          ),
+                        const Icon(Icons.chevron_right),
+                      ],
+                    ),
+                  ),
                 ],
               ),
             )

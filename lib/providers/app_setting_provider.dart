@@ -4,11 +4,14 @@
 
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:sih_help_disabled_people/utils/consts.dart';
+
+
 
 class AppSettingProvider extends ChangeNotifier{
-  double textScaleFactor = 1;
+  TextScaleFactorEnum textScaleFactor = TextScaleFactorEnum.medium;
 
-  void setTextScaleFactor(double value){
+  void setTextScaleFactor(TextScaleFactorEnum value){
     textScaleFactor = value;
     notifyListeners();
   }
